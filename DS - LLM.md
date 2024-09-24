@@ -52,3 +52,16 @@ python -m pip install elasticsearch
 file $(which python)
 
 ```
+
+# Git stuff
+
+* For a fresh repo
+
+```
+git init
+git add DS\ -\ LLM.md 
+git commit -m "Initial Commit" 
+git branch -M main  
+git remote add origin git@github.com:anirudh-32/Notes.git
+git push -u origin main
+```
