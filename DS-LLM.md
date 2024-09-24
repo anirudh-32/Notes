@@ -10,6 +10,15 @@ conda search python
 conda remove -n myenv --all
 ```
 
+## For creating Conda env with specific Architecture
+
+```
+CONDA_SUBDIR=osx-64 conda create -n ds-core python=3.9
+CONDA_SUBDIR=osx-arm64 conda create -n ds-core python=3.9
+file $(which python)
+```
+* https://stackoverflow.com/questions/65415996/how-to-specify-the-architecture-or-platform-for-a-new-conda-environment-apple
+
 ## Venv
 
 ```
@@ -30,27 +39,20 @@ docker logs [container-id]
 
  curl -k -u elastic:lAZGOFmJV3rxpCUPNBhZ http://localhost:9200
 ```
-
-# Netomi Pip Install
+# PIP
+## Netomi Pip Install
 
 ```
 pip install --upgrade pip && pip install --extra-index-url http://pypi.netomi.io --trusted-host pypi.netomi.io -r requirements/global_requirements.txt
 ```
 
-# For handling multiple versions of Pip and Python
+## For handling multiple versions of Pip and Python
 
 ```
 which python
 which pip
 python -m pip install elasticsearch
 /opt/miniconda3/envs/rag_application/bin/pip install elasticsearch
-```
-
-# For Checking python architecture
-
-```
-file $(which python)
-
 ```
 
 # Git stuff
