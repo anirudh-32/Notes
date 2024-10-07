@@ -67,3 +67,37 @@ git branch -M main
 git remote add origin git@github.com:anirudh-32/Notes.git
 git push -u origin main
 ```
+
+
+# Error solutions:
+
+* https://github.com/jax-ml/jax/discussions/19343
+
+# AWS CLI Configure
+
+```
+(base) anirudh@Netomis-MacBook-Pro ~ % aws configure sso
+SSO session name (Recommended): anirudh-netomi
+SSO start URL [None]: https://d-906740505a.awsapps.com/start/#
+SSO region [None]: us-east-1
+SSO registration scopes [sso:account:access]: sso:account:access
+Attempting to automatically open the SSO authorization page in your default browser.
+If the browser does not open or you wish to use a different device to authorize this request, open the following URL:
+
+https://device.sso.us-east-1.amazonaws.com/
+
+Then enter the code:
+
+NDFJ-CVRB
+There are 2 AWS accounts available to you.
+Using the account ID 721846126987
+The only role available to you is: DevOpsTeamAccess
+Using the role name "DevOpsTeamAccess"
+CLI default client Region [None]: us-east-1
+CLI default output format [None]: json
+CLI profile name [DevOpsTeamAccess-721846126987]: anirudh-aws-netomi
+
+To use this profile, specify the profile name using --profile, as shown:
+
+aws s3 ls --profile anirudh-aws-netomi
+```
