@@ -1,1 +1,3 @@
-# Document reader RAG with local llama
+# RAG Document QA
+
+
