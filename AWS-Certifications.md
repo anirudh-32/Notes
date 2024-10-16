@@ -9,13 +9,14 @@
 # List of certifications to complete:
 
 ### Level 1: Foundational
-* Cloud Practitioner
-* AI Practitioner
+* Cloud Practitioner CLF-C02
+* AI Practitioner AIF-C01
 ### Level 2: Associate
-* Solutions Architect
-* Machine Learning Engineer
-*  Data Engineer
+* [Solutions Architect SAA-C03](https://www.pluralsight.com/cloud-guru/courses/aws-certified-solutions-architect-associate-saa-c03) 
+* Machine Learning Engineer MLA-C01
+*  Data Engineer DEA-C01
 ### Level 3: Professional
-* Dev Ops Engineer
+* Dev Ops Engineer DOP-C02
 ### Level 4: Specialty
-* Machine Learning
+* Machine Learning MLS-C01
+
